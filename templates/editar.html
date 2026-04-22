@@ -19,7 +19,7 @@
         <label for="stock" class="form-label">Cantidad en Stock</label>
         <input type="number" class="form-control" id="stock" name="stock" value="{{ producto['stock'] }}" required>
     </div>
-    <button type="submit" class="btn btn-primary">Actualizar Producto</button>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
     <a href="{{ url_for('index') }}" class="btn btn-secondary">Cancelar</a>
 </form>
 {% endblock %}
